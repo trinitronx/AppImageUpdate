@@ -52,7 +52,7 @@ else()
     function(import_zsync2)
         FetchContent_Declare(zsync2
             GIT_REPOSITORY https://github.com/trinitronx/zsync2
-            GIT_TAG bump-min-cmake-ver-3.6
+            GIT_TAG pre-release-build-test
         )
         FetchContent_MakeAvailable(zsync2)
     endfunction()
