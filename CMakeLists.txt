@@ -67,8 +67,8 @@ if(USE_SYSTEM_LIBAPPIMAGE)
 else()
     function(import_libappimage)
         FetchContent_Declare(libappimage
-            GIT_REPOSITORY https://github.com/AppImageCommunity/libappimage
-            GIT_TAG a0967b29d671e9647ef128b74364defc2153e3ed
+            GIT_REPOSITORY https://github.com/trinitronx/libappimage.git
+            GIT_TAG bump-min-cmake-ver-3.6
         )
         FetchContent_MakeAvailable(libappimage)
     endfunction()
